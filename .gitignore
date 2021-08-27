@@ -1,1 +1,4 @@
 .vscode/
+**/v.2.0.0/jobs/**
+**/v.2.0.0/downloads/**
+**/v.2.0.0/m2deps/**
