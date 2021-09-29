@@ -19,3 +19,9 @@ $ docker run --name docker-jenkins \
 ```sh
 $ docker inspect docker-jenkins | grep backup
 ```
+
+## Enviando versoes para dockerhub
+
+```sh
+$ docker push rafaelbarros/missao-devops-jenkins:1.0.0
+```
