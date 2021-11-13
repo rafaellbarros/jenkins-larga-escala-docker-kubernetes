@@ -7,7 +7,7 @@ image_name=missao-devops-jenkins
 image_version=2.0.0
 container_name=md-jenkins
 
-docker pull jenkins/jenkins:2.303.3
+docker pull jenkins/jenkins:2.308
 
 if [ ! -d downloads ]; then
     mkdir downloads
