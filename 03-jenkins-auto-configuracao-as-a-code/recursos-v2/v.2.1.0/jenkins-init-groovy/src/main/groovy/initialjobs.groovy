@@ -36,4 +36,3 @@ properties.initialjobs.each { job ->
   println ">>> Schedule ${job.value.name} seed jod"
   instance.getJob(job.value.name).scheduleBuild()
 }
-
