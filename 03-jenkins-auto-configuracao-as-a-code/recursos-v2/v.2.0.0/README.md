@@ -13,5 +13,11 @@ $ awk -v prefix="implementation 'org.jenkins-ci.plugins:" -v postfix="'" '{print
 ## Gerando uma nova versão
 
 ```sh
-$ docker build . --tag rafaelbarros/missao-devops-jenkins:2.0.0 --tag
+$ docker build . --tag rafaelbarros/missao-devops-jenkins:2.0.0
+```
+
+## Enviando versão para dockerhub
+
+```sh
+$ docker push rafaelbarros/missao-devops-jenkins:2.0.0
 ```
